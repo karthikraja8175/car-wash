@@ -1,0 +1,208 @@
+<DOCTYPE! html>
+    <html>
+<head>
+    <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>bagawan motors
+  </title>
+</head>
+
+
+    <body>
+
+      
+      <nav class="navbar"> 
+        <div class="logo">BM</div>
+        <div class="navbar-container">
+          <ul class="navbar-menu">
+            <li class="navbar-item"><a href="#about" class="navbar-link" id="About Me">Home</a></li>
+            <li class="navbar-item"><a href="#academics" class="navbar-link" id="Academics">Services</a></li>
+            <li class="navbar-item"><a href="#skills" class="navbar-link" id="Skills">About us</a></li>
+            <li class="navbar-item"><a href="#certificate" class="navbar-link" id="certificates">gallery</a></li>
+            <button class="book">Book</button>
+          </ul>
+        </div>
+      </nav>
+      <script>
+        document.addEventListener('DOMContentLoaded', () => {
+          const mobileMenu = document.getElementById('mobile-menu');
+          const navbarMenu = document.querySelector('.navbar-menu');
+        
+          mobileMenu.addEventListener('click', () => {
+            navbarMenu.classList.toggle('active');
+          });
+        });
+      </script>
+
+
+<div class="image-container">
+    <img src="images/15.jpg" alt="Image Description" class="image">
+    <div class="overlay">
+        <p><div class="bold">Shine On, Drive Proud;</div><br>
+        Your Car Deserves the best<br>
+        -We Delivers It-</p>
+    </div>
+</div>
+
+<div class="services">
+    <div class="title">Our Services</div>
+    <div class="imges">
+        <a class="tile" href="#">
+           <img src="images/3.jpeg" alt="wedding">
+           <div class="details">
+              <span class="title">Basic Wash</span>
+              <p>Exterior Hand Wash<br>
+                Tire Cleaning<br>
+                Rinse and Dry</p> 
+           </div>
+         </a>
+         <a class="tile" href="#">
+           <img src="images/5.jpeg" alt="model">
+           <div class="details">
+              <span class="title">Deluxe Wash</span> 
+              <p>Exterior Hand Wash<br>
+                Tire Cleaning<br>
+                Wax Application<br>
+                Interior Vacuuming<br>
+                Dashboard Wipe Down<br>
+                Window Cleaning</p>
+           </div>
+         </a>
+         <a class="tile" href="#">
+           <img src="images/7.avif" alt="event">
+           <div class="details">
+              <span class="title">Premium Wash</span>
+              <p>Deluxe Wash Services<br>
+                Underbody Wash<br>
+                Seat Cleaning (Vacuuming & Spot Cleaning)<br>
+                Floor Mat Cleaning<br>
+                Air Freshener Application<br>
+                Wheel Detailing</p> 
+           </div>
+         </a>
+         <a class="tile" href="#">
+            <img src="images/10.jpg" alt="wedding">
+            <div class="details">
+               <span class="title">Full Detailing</span> 
+               <p>Premium Wash Services<br>
+                Clay Bar Treatment<br>
+                Polishing and Buffing<br>
+                Engine Bay Cleaning<br>
+                Leather Conditioning<br>
+                Interior Shampoo (Seats, Carpets)<br>
+                Headlight Restoration</p>
+            </div>
+          </a>  
+    </div>
+ </div>
+
+
+ <div class="about">
+    <div class="title">About US</div>
+    <img src="images/2.jpeg" alt="Image Description" class="image">
+    <div class="contant">
+        <p>Welcome to Bagawan Motors, <br>your trusted car care destination. 
+            We specialize in delivering top-quality car washing and detailing
+            services to keep your vehicle in pristine condition. 
+            With a commitment to customer satisfaction and eco-friendly practices, 
+            our skilled team ensures your car looks and feels like new every time. 
+            Choose Bagawan Motors for reliable, expert care.</p>
+          </div>
+            <div class="title">Why Choose Us?</div> 
+            <div class="choose-contant">
+              <a><img src="images/quality.png"><b>Quality Service</b><br></a>
+              <a><img src="images/experienced.png"><b>Experienced Team</b><br></a>
+              <a><img src="images/coustomer.png"><b>Customer Satisfaction</b><br> </a>
+              <a><img src="images/eco-friend.png"><b>Eco-Friendly Solutions</b><br></a>
+              <a><img src="images/price.png"><b>Convenient Packages</b><br></a>
+            </div>  
+            
+</div>
+ 
+<div class="reviews">
+  <div class="title">Customer Reviews</div>
+
+  <div class="contant">
+    <img src="images/reviews.png">
+    <p>"Bagawan Motors has become my go-to spot for car washing. 
+      I’ve been here several times, and each time the results are consistently impressive.
+      My car always looks brand new after their service, and the staff is always courteous and efficient.
+      The waiting area is clean and comfortable too,which makes the whole experience even better. Highly recommended!"</p>
+    <div class="Clients-author">Arun .M</div>
+    <div class="Clients-role">chennai</div>
+  </div> 
+
+  <div class="contant">
+    <img src="images/reviews.png">
+    <p>"I was in a rush and needed a quick wash before heading to a meeting, 
+      and Bagawan Motors delivered beyond my expectations. 
+      They managed to get my car washed and dried in record time, 
+      without compromising on quality. The pricing is very competitive, 
+      and I appreciate how thorough they are, even when working quickly.
+       I’ll definitely be coming back for regular washes!"</p>
+    <div class="Clients-author">Praveen .s</div>
+    <div class="Clients-role">chennai</div>
+  </div> 
+
+  <div class="contant">
+    <img src="images/reviews.png">
+    <p>"I had an excellent experience at Bagawan Motors. 
+      The team was incredibly friendly and made me feel welcome from the moment I arrived. 
+      They took great care of my car, ensuring every nook and cranny was spotless. 
+      I also loved the eco-friendly products they use, which are gentle on my car’s paint.
+       I left with a sparkling clean car and a big smile on my face.
+       Highly recommend this place!"</p>
+    <div class="Clients-author">Naveen .k</div>
+    <div class="Clients-role">chennai</div>
+  </div> 
+
+</div>
+
+<div class="booking">
+  <div class="title">Book Now</div>
+  <form id="booking-form">
+    
+        <input type="text" id="name" name="name" required  placeholder="name"><br>
+        <input type="text" id="number" name="number" required placeholder="Number"><br>
+        <input type="date" id="date" name="date" required placeholder="Date"><br>
+        <input type="text" id="service" name="service" required placeholder="Service"><br>
+        <textarea id="message" name="message" required placeholder="message"></textarea><br>
+        <button type="submit">book</button>
+    </form>
+</div>
+
+<footer class="footer">
+  <div class="column-logo">
+      <img src="images/footer.png" alt="Logo">
+  </div>
+  <div class="column">
+      <h3>LINK</h3>
+      <ul>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="faqs.html">FAQs</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="support.html">Support</a></li>
+      </ul>
+  </div>
+  <div class="column">
+      <h3>SOCIAL</h3>
+      <ul>
+        <li><a href="https://www.facebook.com">Facebook</a></li>
+        <li><a href="https://www.twitter.com">Twitter</a></li>
+        <li><a href="https://www.instagram.com">Instagram</a></li>
+        <li><a href="https://www.youtube.com">YouTube</a></li>
+      </ul>
+  </div>
+  <div class="column">
+      <h3>CONTACT</h3>
+      <ul>
+        <li>+91 - 12345 67890</li>
+        <li><a href="mailto:varmafotos90@gmail.com">bagawanmotor8740@gmail.com</a></li>
+        <li>123, ABC Street,<br>City Name,<br>State Name - PIN Code,<br>Country.</li>
+      </ul>
+  </div>
+</footer>
+
+</body>
+  </html>
